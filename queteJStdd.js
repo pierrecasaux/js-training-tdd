@@ -15,7 +15,6 @@ const bool = false;
 const undef = undefined;
 
 //* Begin of tests
-const assert = require('assert');
 
 assert.strictEqual(typeof str, 'string');
 assert.strictEqual(str, '1337');
