@@ -8,6 +8,13 @@
 
 // Your code:
 
+const somme = 0;
+const total = array => {
+    for( let i = 0; i < Array.length; i++ )
+    somme = somme + i;
+};
+return somme;
+
 //* Begin of tests
 const assert = require('assert');
 
